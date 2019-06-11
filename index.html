@@ -3,24 +3,69 @@
 <head>
 
     <title>SpaceX Reimagined</title>
+    <link rel="stylesheet" href="./reset.css"/>
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <nav>
-        <h1>SpaceX</h1>
-        <ul>
-            <li>FALCON 9</li>
-            <li>FALCON HEAVY</li>
-            <li>DRAGON</li>
-            <li>UPDATES</li>
-        </ul>
-
-        <ul>
-            <li>ABOUT SPACEX</li>
-            <li>CAREERS</li>
-            <li>DRAGON</li>
-            <li>UPDATES</li>
-        </ul>
+    <nav class="topNav">
+        <div id="navContainer">
+                <img src="https://www.spacex.com/sites/spacex/files/spacex_logo_white.png" id="navLogo">
+                <ul class="navMainOptions">
+                    <li>FALCON 9</li>
+                    <li>FALCON HEAVY</li>
+                    <li>DRAGON</li>
+                    <li>UPDATES</li>
+                </ul>
+        
+                <ul class="navSecondOptions"> 
+                    <li>ABOUT SPACEX</li>
+                    <li>CAREERS</li>
+                    <li>GALLERY</li>
+                    <li>SHOP</li>
+                </ul>
+        </div>
     </nav>
+
+    <div id="coreHeroContainer">
+        <div id="heroBottomContainer">
+            <div id="heroBtmTitleContainer">
+                    <h1 id="heroH1">FIRST PASSENGER ON LUNAR BFR MISSION</h1>
+                    <button id="learnMoreBtn">LEARN MORE</button>
+            </div>
+            <div id="heroBtmChoiceBack">
+                <div id="heroBtmChoiceContainer">
+                        <div class="heroBotSeparator"></div>
+                        <btn class="heroBotChoice"><font color = "gray">01 &ensp;</font>STARLINK MISSION</btn>
+                        <div class="heroBotSeparator"></div>
+                        <btn class="heroBotChoice"><font color = "gray">02 &ensp;</font>NASA ASTRONAUTS ON CREW DRAGON</btn>
+                        <div class="heroBotSeparator"></div>
+                        <btn class="heroBotChoiceSelected"><font color = "gray">03 &ensp;</font>FIRST PASSENGER ON LUNAR BFR MISSION</btn>
+                        <div class="heroBotSeparator"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="coreContentContainer">
+        <div id="topContentShadow"></div>
+        <div id="contentMiddleContainer">
+                <h2 id="contentTopH2">SPACEX DESIGNS, MANUFACTURES AND LAUNCHES ADVANCED ROCKETS AND SPACECRAFT</h2>
+                <div id="contentUpdatesContainer">
+                    <div class="contentUpdateCard">
+                        <img class="contentUpdateImage" src="https://www.spacex.com/sites/spacex/files/home_block_reusable.jpg">
+                        <h3 class="contentH3Title">REUSABILITY: WORLD’S FIRST REFLIGHT OF AN ORBITAL CLASS ROCKET</h3>
+                    </div>
+                    <div class="contentUpdateCard">
+                            <img class="contentUpdateImage" src="https://www.spacex.com/sites/spacex/files/home_block_commercial_crew.jpg">
+                            <h3 class="contentH3Title">COMMERCIAL CREW: TAKING AMERICA’S ASTRONAUTS TO SPACE</h3>
+                    </div>
+                    <div class="contentUpdateCard">
+                            <img class="contentUpdateImage" src="https://www.spacex.com/sites/spacex/files/multiplanetary_thumbnail.jpg">
+                            <h3 class="contentH3Title">MAKING LIFE MULTIPLANETARY</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
 </body>
 </html>

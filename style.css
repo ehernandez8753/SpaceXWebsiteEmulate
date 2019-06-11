@@ -1,0 +1,218 @@
+
+/*----- TOP NAV BAR ------*/
+.topNav{
+    width: 100vw;
+    height: 12vh;
+    background-color:rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#navContainer{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navLogo{
+    width: 180px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    margin-bottom: .8%;
+    margin-right: 0;
+}
+.navMainOptions{
+    width: 40%;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.navSecondOptions{
+    width: 35%;
+    color: rgb(125, 148, 165);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*------ HERO SECTION ----*/
+
+#coreHeroContainer{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("https://www.spacex.com/sites/all/themes/spacex2012/images/mars/BFR_Sep_A_Longnose.jpg");
+    background-position: 0 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+#heroBottomContainer{
+    width: 100%;
+    height: 32%;
+    background-color: rgb(36, 38, 44, .91);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#heroBtmTitleContainer{
+    width: 72%;
+    height: 61.7%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#heroBtmChoiceBack{
+    width: 100%;
+    height: 38.3%;
+    background-color: rgb(36, 38, 44);
+
+}
+#heroBtmChoiceContainer{
+    width: 72%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(36, 38, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#heroH1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 28px;
+    letter-spacing: .5px;
+    margin-right: 7%;
+    
+}
+#learnMoreBtn{
+    width: 180px;
+    height: 36px;
+    border: 0;
+    border-radius: 2px;
+    background-color: white;
+    margin-top: .5%;
+    margin-right: 2.5%;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroBotSeparator{
+    height: 100%;
+    width: 1px;
+    background-color: rgb(30, 30, 30);
+}
+.heroBotChoice{
+    height: 100%;
+    width: 330px;
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+
+    display: flex;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+.heroBotChoiceSelected{
+    height: 100%;
+    width: 330px;
+    color: white;
+
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+
+    display: flex;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+/*-------- MAIN CONTENT --------*/
+
+#coreContentContainer{
+    height: 840px;
+    width: 100%;
+    background-color: white;
+
+}
+#contentMiddleContainer{
+    height: 100%;
+    width: 72%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+#topContentShadow{
+    height:20px;
+    width: 100%;
+    box-shadow: 0px 150px 120px;
+    display: flex;
+    position: relative;
+    top: -140px;
+}
+#contentTopH2{
+    color: rgb(68, 68, 68);
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+#contentUpdatesContainer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contentUpdateCard{
+    height: 252px;
+    width: 310px;
+    background-color:white;
+    box-shadow: 0px 0px 8px #9D9D9D;
+    margin: 0px 1.5%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.contentUpdateImage{
+    width: 100%;
+    height: 50%;
+}
+.contentH3Title{
+    width: 100%;
+    height: 30%;
+    letter-spacing: .5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 68, 68);
+    margin-top: 8%;
+}
+.contentLearnMore{
+    
+}
